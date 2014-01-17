@@ -1,0 +1,224 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: #444;
+}
+.container
+{
+    min-height: 270px;
+    margin: 0 auto 0 auto;
+    background-color: white;
+}
+.Left
+{
+    width: 42%;
+    height: 100%;
+    float: left;
+}
+.right
+{
+    width: 58%;
+    height : 100%;
+    float: left;
+}
+#loginform
+{
+    text-align: center;
+    width: auto!important;
+    padding: 20px;
+    margin: 0px;
+    min-height: 225px;
+}
+#form
+{
+    min-width: auto!important;
+    margin: 0px;
+    padding: 0px;
+}
+
+#username, #passowrd
+{
+    padding: 10px;
+}
+
+#submitMe
+{
+    width:250px;
+    padding: 10px;
+    font-weight: bold;
+}
+#sucessmsg
+{
+    color: red;  
+}
+.clear
+{
+    clear: both;
+}
+
+/* css for media screen max of 1500px and min of 1025px*/
+@media only screen and (max-width : 1500px)
+{
+    .container
+    {
+        width: 60%;
+        margin-top: 100px;
+    }
+    .left
+    {
+        width: 30%;
+        min-height: 150px;
+        float: left;
+    }
+    .right
+    {
+        width:54%;
+        float: left;
+        min-height: 300px;
+        padding: 10px;
+    }
+    #name
+    {
+        max-width: 100%!important;
+        min-height: 10px;
+        margin: 0%;
+        padding: 0%;  
+    }
+    .frame
+    {
+        width: 100%!important;
+        margin: 0px;
+        padding: 0px;
+        height: 250px;
+    }
+    
+}
+
+
+/* css for media screen max of 1025px and min of 800px*/
+@media only screen and (max-width : 1025px)
+{
+    .container
+    {
+        width: 80%;
+        margin-top: 80px;
+    }
+    .left
+    {
+        width: 43%;
+        min-height: 150px;
+        float: left;
+    }
+    .right
+    {
+        width: 48%;
+        padding: 10px;
+        float: left;
+        min-height: 150px;
+    }
+    .frame
+    {
+        width: 100%!important;
+        margin: 0px;
+        padding: 0px;
+        height: 250px;
+    }
+    
+    
+}
+
+
+/* css for media screen max of 800px and min of 640px*/
+@media only screen and (max-width : 800px)
+{
+    .container
+    {
+        width: 90%;
+        margin-top: 60px;
+    }
+    .left
+    {
+        width: 47%;
+        min-height: 150px;
+        float: left;
+    }
+    .right
+    {
+        width: 40%;
+        float: left;
+        min-height: 125px;
+    }
+    .frame
+    {
+        width: 100%!important;
+        margin: 0px;
+        padding: 0px;
+        height: 250px;
+    }
+    
+}
+
+
+/* css for media screen max of 640px and min of 480px*/
+@media only screen and (max-width : 640px)
+{
+    .container
+    {
+        width: 70%;
+        margin-top: 40px;
+    }
+    .left
+    {
+        width: 100%;
+        min-height: 150px;
+    }
+    .right
+    {
+        display: none;
+    }
+}
+
+
+
+/* css for media screen max of 1500px and min of 1025px*/
+@media only screen and (max-width : 480px)
+{
+    .container
+    {
+        width: 80%;
+        margin-top: 35px;
+    }
+    .left
+    {
+        width: 100%;
+        min-height: 150px;
+    }
+    .right
+    {
+        display: none;
+    }
+}
+
+
+/* css for media screen max of 1500px and min of 1025px*/
+@media only screen and (max-width : 320px)
+{
+    .container
+    {
+        width: 100%;
+        padding: 25px 0px 0px 0px;
+    }
+    .left
+    {
+        width: 100%;
+        min-height: 150px;
+    }
+    .right
+    {
+        display: none;
+    }
+}
+
+
+
