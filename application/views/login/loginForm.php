@@ -6,7 +6,7 @@
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
         <meta charset="utf-8">
-        <meta name="keywords" content="l"/>
+        <meta name="keywords" content=""/>
         <meta name="description" content=""/>
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url()."contents/styles/styles.css"; ?>" />
     </head>
@@ -18,19 +18,19 @@
                     <tbody>
                         <tr>
                         <td colspan="2">
-                            <img id="name" src="<?php echo base_url()."/content/images/bnw.png"; ?>", alt "logo"/>
+                            <img id="name" src="<?php echo base_url()."/content/images/bnw.png"; ?>"/>
                                 <p id="sucessmsg">
                                      </p>
                         </td>
                         </tr>
                         <tr>
                         <td colspan="2">
-                            <input type="text" size="35" id="username" name="username" placeholder="User Name" required/>
+                            <input type="text" id="username" name="username" placeholder="User Name" required/>
                         </td>
                         </tr>
                         <tr>
                         <td colspan="2">
-                            <input type="password" size="35" id="passowrd" name="password" placeholder="Password" required/>
+                            <input type="password" id="password" name="password" placeholder="Password" required/>
                         </td>
                         </tr>
                         <tr>
@@ -40,14 +40,13 @@
                         </tr>
                         <tr>
                         <td>
-                            <input type="checkbox" value=""/>Stay Logged In
+                            <input type="checkbox" id="check"/>Stay Logged In
                         </td>
                         <td>
                             <a href="#">Forgot Password</a>
                         </td>
                         </tr>
                     </tbody>
-                    </form>
                 </table>
                 </div>
             </div>
@@ -56,5 +55,8 @@
             </div>
         </div>
         <div class="clear"></div>
+        <script language="javascript" type="text/javascript">
+         document.getElementById("username").focus();
+        </script>
     </body>
 </html>
