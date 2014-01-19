@@ -77,6 +77,14 @@ a:hover
     color: red;
     text-decoration: none;
 }
+#footer
+    {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        margin-top: 10px;
+        padding: 0px;
+    }
 /* css for media screen max of 1500px and min of 1025px*/
 @media only screen and (max-width : 1500px)
 {
@@ -95,7 +103,7 @@ a:hover
     {
         width:54%;
         float: left;
-        min-height: 300px;
+       
         padding: 10px;
     }
     #name

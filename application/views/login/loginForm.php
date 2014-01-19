@@ -8,6 +8,15 @@
         <meta charset="utf-8">
         <meta name="keywords" content=""/>
         <meta name="description" content=""/>
+        
+<?php if(isset($meta))
+{
+     foreach ($meta as $data)
+     {
+         $title[] = $data->value;
+     }
+}
+?>   
         <link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url()."contents/styles/styles.css"; ?>" />
     </head>
     <body>
@@ -55,6 +64,9 @@
             </div>
         </div>
         <div class="clear"></div>
+        <div id="footer">
+            Matrix 1.0 Copyright &copy 2014. All rights reserved to <a href="#">Matrix</a>
+        </div>
         <script language="javascript" type="text/javascript">
          document.getElementById("username").focus();
         </script>
